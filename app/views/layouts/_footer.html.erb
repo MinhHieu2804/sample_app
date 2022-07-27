@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    The <%= link_to "Ruby on Rails Tutorial", Settings.urls.footer.tutorial %>by
+    <%= link_to "Michael Hartl",Settings.urls.footer.author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.about"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.contact"), contact_path %></li>
+      <li><%= link_to t("static_pages.footer.news") ,Settings.urls.footer.news %></li>
+    </ul>
+  </nav>
+</footer>
