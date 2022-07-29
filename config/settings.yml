@@ -13,3 +13,8 @@ urls:
     book: "https://www.railstutorial.org/book"
     series: "https://screencasts.railstutorial.org/"
     ruby: "https://rubyonrails.org/"
+user:
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  name_max: 50
+  email_max: 255
+  password_min: 6
