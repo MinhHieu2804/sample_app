@@ -34,3 +34,10 @@ en:
          help: "Help"
          contact: "Contact"
          about: "About"
+         signup: "Sign up"
+   users:
+      error: "error"
+      cantfind: "Can't find user"
+      form_error: "The form contains"
+      new:
+         create_acount: "Create my account"

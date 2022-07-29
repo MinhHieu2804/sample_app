@@ -18,3 +18,4 @@ user:
   name_max: 50
   email_max: 255
   password_min: 6
+  gravatar_szie: 80

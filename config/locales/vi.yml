@@ -34,3 +34,10 @@ vi:
          help: "Trợ giúp"
          contact: "Liên hệ"
          about: "Về chúng tôi"
+         signup: "Đăng ký"
+   users:
+      error: "Lỗi"
+      cantfind: "Không tìm được người dùng"
+      form_error: "Form chứa"
+      new:
+         create_acount: "Tạo tài khoản"
