@@ -39,5 +39,17 @@ en:
       error: "error"
       cantfind: "Can't find user"
       form_error: "The form contains"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
       new:
          create_acount: "Create my account"
+   sessions:
+      new:
+         login: "Log in"
+         new_user: "New user? "
+         sign_up: "Sign up now!"
+      create:
+         error: "Invalid email/password combination"
