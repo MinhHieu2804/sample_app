@@ -39,5 +39,17 @@ vi:
       error: "Lỗi"
       cantfind: "Không tìm được người dùng"
       form_error: "Form chứa"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
       new:
          create_acount: "Tạo tài khoản"
+   sessions:
+      new:
+         login: "Đăng nhập"
+         new_user: "Chưa có tài khoản? "
+         sign_up: "Đăng ký ngay!"
+      create:
+         error: "Mật khẩu hoặc email không đúng"

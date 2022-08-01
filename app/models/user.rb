@@ -14,7 +14,7 @@ class User < ApplicationRecord
   length: {minimum: Settings.user.password_min}
 
   private
-  def downcase_mail
+  def downcase_email
     email.downcase!
   end
 end
