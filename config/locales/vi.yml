@@ -51,5 +51,6 @@ vi:
          login: "Đăng nhập"
          new_user: "Chưa có tài khoản? "
          sign_up: "Đăng ký ngay!"
+         remember: "Ghi nhớ đăng nhập"
       create:
          error: "Mật khẩu hoặc email không đúng"
