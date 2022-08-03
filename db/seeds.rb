@@ -1,8 +1,11 @@
-# User.create!(name: "Example User",
-#               email: "example999@railstutorial.org",
-#               password:
-#               "foobar",
-#               password_confirmation: "foobar")
+User.create!(name: "Admin",
+              email: "admin@gmail.com",
+              password:
+              "123456",
+              password_confirmation: "123456",
+              admin:true,
+              activated: true,
+              activated_at: Time.zone.now)
 
 99.times do |n|
   name = "User-#{n+1}"
@@ -11,5 +14,7 @@
   User.create!( name: name,
                 email: email,
                 password: password,
-                password_confirmation: password)
+                password_confirmation: password,
+                activated: true,
+                activated_at: Time.zone.now)
 end

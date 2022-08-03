@@ -50,6 +50,7 @@ vi:
       delete_failed: "Xóa người dùng thất bại"
       login_warn: "Xin hãy đăng nhập."
       confirm: "Bạn chắc không ?"
+      check_email: "Kiểm tra email để kích hoạt tài khoản."
       new:
          create_acount: "Tạo tài khoản"
       index:
@@ -66,3 +67,11 @@ vi:
          remember: "Ghi nhớ đăng nhập"
       create:
          error: "Mật khẩu hoặc email không đúng"
+   user_mailer:
+      welcome: "Chào mwufng đến với Sample App! Bấm vào link dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      mess: "Tài khoản chưa kích hoạt. Kiểm tra email."
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_link: "Link không hợp lệ"
+      subject: "Kích hoạt tài khoản"
+      sample_app: "Ứng dụng Mẫu"
