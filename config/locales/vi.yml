@@ -44,8 +44,20 @@ vi:
       profile: "Trang cá nhân"
       settings: "Cài đặt"
       logout: "Đăng xuất"
+      profile_updated: "Cập nhật thành công"
+      profile_faild: "Cập nhật thất bại"
+      user_deleted: "Xóa người dùng thành công"
+      delete_failed: "Xóa người dùng thất bại"
+      login_warn: "Xin hãy đăng nhập."
+      confirm: "Bạn chắc không ?"
       new:
          create_acount: "Tạo tài khoản"
+      index:
+         title: "Tất cả người dùng"
+      edit:
+         title: "Cập nhật thông tin"
+         save_button: "Lưu thay đổi"
+         change: "Thay đổi"
    sessions:
       new:
          login: "Đăng nhập"

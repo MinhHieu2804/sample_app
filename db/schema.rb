@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_01_073433) do
+ActiveRecord::Schema.define(version: 2022_08_02_074132) do
 
   create_table "columns_priv", primary_key: ["Host", "User", "Db", "Table_name", "Column_name"], charset: "utf8mb3", collation: "utf8mb3_bin", comment: "Column privileges", options: "/*!50100 TABLESPACE `mysql` */ ENGINE=InnoDB STATS_PERSISTENT=0 ROW_FORMAT=DYNAMIC", force: :cascade do |t|
     t.string "Host", default: "", null: false, collation: "ascii_general_ci"
@@ -417,6 +417,7 @@ ActiveRecord::Schema.define(version: 2022_08_01_073433) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

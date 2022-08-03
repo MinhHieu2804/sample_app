@@ -44,8 +44,20 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
+      profile_updated: "Profile updated"
+      profile_faild: "Update failed"
+      user_deleted: "User deleted"
+      delete_failed: "Delete failed"
+      login_warn: "Please log in."
+      confirm: "Are you sure ?"
       new:
          create_acount: "Create my account"
+      index:
+         title: "All users"
+      edit:
+         title: "Update your profile"
+         save_button: "Save changes"
+         change: "change"
    sessions:
       new:
          login: "Log in"
