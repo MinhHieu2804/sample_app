@@ -29,6 +29,9 @@ en:
          welcome_quote: "Welcome to the Sample App"
          dis1: "This is the home page for the"
          dis2: "sample application."
+         feed: "Micropost Feed"
+         tutor: "Ruby on Rails Tutorial"
+         logo: "Rails logo"
       title:
          home: "Home"
          help: "Help"
@@ -94,3 +97,21 @@ en:
          title_for: "Forgot password"
          submit: "Submit"
       forgot_pass: "(forgot password)"
+   microposts:
+      created: "Micropost created!"
+      image_valid: "must be a valid image format"
+      image_size: "should be less than 5MB"
+      posted: "Posted"
+      ago: "ago"
+      confirm : "Are you sure?"
+      place_holder: "Compose new micropost..."
+      view_myprofile: "view my profile"
+      micropost: "micropost"
+      delete: "delete"
+      post: "Post"
+      deleted: "Micropost deleted"
+      delete_fails: "Delete failed"
+      empty: "No micropost"
+   shared:
+      micropost_form:
+         large_img_error: "Maximum file size is 5MB. Please choose a smaller file."

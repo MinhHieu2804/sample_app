@@ -24,3 +24,9 @@ user:
   pagy: 20
 email:
   expired: 2
+image_type: ["image/jpeg", "image/gif", "image/png"]
+post_max: 140
+image_max: 5
+image_resize: [500, 500]
+image_accept: "image/jpeg, image/gif, image/png"
+user_feed: 50
