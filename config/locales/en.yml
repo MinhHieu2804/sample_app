@@ -50,6 +50,7 @@ en:
       delete_failed: "Delete failed"
       login_warn: "Please log in."
       confirm: "Are you sure ?"
+      check_email: "Please check your email to activate your account."
       new:
          create_acount: "Create my account"
       index:
@@ -66,3 +67,11 @@ en:
          remember: "Remember me on this computer"
       create:
          error: "Invalid email/password combination"
+   user_mailer:
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      mess: "Account not activated. Check your email for the activation link."
+      account_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+      subject: "Account activation"
+      sample_app: "Sample App"
