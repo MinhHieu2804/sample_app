@@ -75,3 +75,22 @@ vi:
       invalid_link: "Link không hợp lệ"
       subject: "Kích hoạt tài khoản"
       sample_app: "Ứng dụng Mẫu"
+      pass_reset: "Cài lại mật khẩu"
+      to_test: "Click link dưới để cài lại mật khẩu:"
+      reset_pass: "Đặt lại mật khẩu"
+      this_link: "Link sẽ hết hạn sau 2 tiếng."
+      if: "Nếu bạn không yêu cầu cài lại mật khẩu, hãy bỏ qua email này, mật khẩu của bạn sẽ được giữ nguyên."
+   password_resets:
+      info: "Email đã được gửi"
+      email_not_found: "Không tìm thấy địa chỉ email"
+      cant_empt: "Không thể để trống"
+      reset_ok: "Mật khẩu đã được đặt lại."
+      expired: "Đặt lại mật khẩu đã quá hạn."
+      edit:
+         title: "Đặt lại mật khẩu"
+         update_button: "Cập nhật mật khẩu"
+         comfirm: "Xác nhận"
+      new:
+         title_for: "Quên mật khẩu"
+         submit: "Gửi"
+      forgot_pass: "(quên mật khẩu)"
