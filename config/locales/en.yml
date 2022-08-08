@@ -54,6 +54,11 @@ en:
       login_warn: "Please log in."
       confirm: "Are you sure ?"
       check_email: "Please check your email to activate your account."
+      follow: "Follow"
+      unfollow: "Unfollow"
+      following: "Following"
+      followers: "Followers"
+      microposts: "Microposts"
       new:
          create_acount: "Create my account"
       index:
@@ -115,3 +120,6 @@ en:
    shared:
       micropost_form:
          large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+   relationships:
+      follow_failed: "Follow failed"
+      unfollow_failed: "Unfollow failed"

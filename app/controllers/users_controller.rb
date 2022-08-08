@@ -54,6 +54,18 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def following
+    @title = t ".following"
+    @pagy, @users = pagy @user.following, item: Settings.user.pagy
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".followers"
+    @pagy, @users = pagy @user.followers, item: Settings.user.pagy
+    render :show_follow
+  end
+
   private
   def user_params
     params.require(:user).permit(

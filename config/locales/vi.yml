@@ -54,6 +54,11 @@ vi:
       login_warn: "Xin hãy đăng nhập."
       confirm: "Bạn chắc không ?"
       check_email: "Kiểm tra email để kích hoạt tài khoản."
+      follow: "Theo dõi"
+      unfollow: "Bỏ theo dõi"
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
+      microposts: "Các bài đăng"
       new:
          create_acount: "Tạo tài khoản"
       index:
