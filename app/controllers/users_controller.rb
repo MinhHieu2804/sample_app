@@ -9,6 +9,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @pagy, @microposts = pagy @user.microposts.latest,
+                              items: Settings.user.pagy
     return if @user
 
     flash[:danger] = t ".cantfind"

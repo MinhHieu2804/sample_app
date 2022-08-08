@@ -29,6 +29,9 @@ vi:
          welcome_quote: "Chào mừng đến với Sample App"
          dis1: "Đây là trang chủ của"
          dis2: "Ứng dụng mẫu."
+         feed: "Các bài đăng"
+         tutor: "Hướng dẫn Ruby on Rails"
+         logo: "Rails logo"
       title:
          home: "Trang chủ"
          help: "Trợ giúp"
@@ -94,3 +97,21 @@ vi:
          title_for: "Quên mật khẩu"
          submit: "Gửi"
       forgot_pass: "(quên mật khẩu)"
+   microposts:
+      created: "Đã tạo bài đăng!"
+      image_valid: "cần đúng định dạng ảnh"
+      image_size: "cần nhỏ hơn 5MB"
+      posted: "Đã đăng"
+      ago: "trước"
+      confirm : "Bạn chắc không?"
+      place_holder: "Soạn bài viết..."
+      view_myprofile: "Xem trang của tôi"
+      micropost: "bài đăng"
+      delete: "xoá"
+      post: "Đăng"
+      deleted: "Đã xóa bài đăng"
+      delete_fails: "Xóa bài không thành công"
+      empty: "Không có bài đăng"
+   shared:
+      micropost_form:
+         large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
